@@ -3,85 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahesh Bodkhe - DevOps Enthusiast</title>
+    <meta name="description" content="Mahesh Bodkhe - DevOps Enthusiast">
+    <meta name="author" content="Mahesh Bodkhe">
+    <title>Mahesh Bodkhe | DevOps Enthusiast</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            color: #f0f0f0; /* Light text color for contrast */
-            background-color: #000000; /* Black background color */
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            padding: 20px;
+            color: #333;
+            background-color: #f4f4f9;
         }
         header {
+            background: #35424a;
+            color: #fff;
+            padding: 1rem 0;
             text-align: center;
-            padding: 50px 0;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5em;
-            color: #007BFF; /* Bright blue for the name */
-        }
-        header p {
-            margin: 10px 0;
-            font-size: 1.2em;
-            color: #f0f0f0;
-        }
-        .contact-info {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        .contact-info a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #007BFF; /* Bright blue links */
         }
         section {
-            margin-bottom: 50px;
-        }
-        section h2 {
-            font-size: 2em;
-            border-bottom: 2px solid #007BFF;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            color: #f0f0f0;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
         }
         ul {
-            list-style-type: none;
-            padding: 0;
+            padding-left: 20px;
         }
-        ul li {
-            margin-bottom: 10px;
+        a {
+            color: #35424a;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #35424a;
+            color: white;
         }
     </style>
 </head>
 <body>
-
-<div class="container">
     <header>
         <h1>Mahesh Bodkhe</h1>
         <p>DevOps Enthusiast</p>
     </header>
-
-    <div class="contact-info">
-        <p>Email: <a href="mailto:maheshbodkhe23@gmail.com">maheshbodkhe23@gmail.com</a> | Phone: +91 7558492960 | Pune, India</p>
-        <p>
-            <a href="https://github.com/maheshbodkhe" target="_blank">GitHub</a> |
-            <a href="https://linkedin.com/in/mbodkhe23" target="_blank">LinkedIn</a>
-        </p>
-    </div>
-
     <section>
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:maheshbodkhe23@gmail.com">maheshbodkhe23@gmail.com</a></p>
+        <p>Phone: +91 7558492960</p>
+        <p>Location: Pune, India</p>
+        <p>GitHub: <a href="https://github.com/maheshbodkhe" target="_blank">github.com/maheshbodkhe</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/mbodkhe23" target="_blank">linkedin.com/in/mbodkhe23</a></p>
+
         <h2>Profile</h2>
         <p>Recent graduate aspiring to excel as a DevOps Engineer, combining theoretical expertise with practical project implementation. Eager to contribute innovative solutions for seamless cloud infrastructure and automation.</p>
-    </section>
 
-    <section>
         <h2>Skills</h2>
         <ul>
             <li>AWS</li>
@@ -96,27 +75,36 @@
             <li>Prometheus</li>
             <li>Terraform</li>
         </ul>
-    </section>
 
-    <section>
         <h2>Projects</h2>
+        <h3>Real-Time DevOps Project: CI/CD Pipeline for Java Application</h3>
         <ul>
-            <li><strong>Django Notes App:</strong> <a href="https://github.com/maheshbodkhe/django-notes-app" target="_blank">GitHub Repository</a>
-                <p>Successfully deployed a Django application on AWS EC2, leveraging automation through Jenkins declarative pipelines.</p>
-            </li>
-            <li><strong>Three-Tier Web Architecture on AWS:</strong> <a href="https://github.com/maheshbodkhe/aws-three-tier-web-architecture-workshop" target="_blank">GitHub Repository</a>
-                <p>Implemented a 3-tier web application architecture on AWS, focusing on scalability, modularity, and security.</p>
-            </li>
+            <li>Launched Jenkins Master and Agent on AWS EC2, enabling CI/CD pipelines.</li>
+            <li>Integrated Maven and GitHub with Jenkins for streamlined artifact management.</li>
+            <li>Configured SonarQube with Jenkins to enhance code quality.</li>
+            <li>Automated Kubernetes deployment using eksctl and ArgoCD, improving efficiency by 30%.</li>
         </ul>
-    </section>
 
-    <section>
+        <h3>Django Notes App</h3>
+        <ul>
+            <li>Automated CI/CD Pipeline: Developed a Jenkins declarative pipeline to deploy a Django notes app on AWS EC2, cutting deployment time by 50%.</li>
+            <li>Containerization: Leveraged Docker and Docker Hub for consistent and reliable application deployment.</li>
+            <li>Security: Configured security groups and user permissions to enhance Jenkins server and Docker container security.</li>
+            <li>Continuous Integration: Integrated GitHub webhooks for automated builds and deployments.</li>
+        </ul>
+
+        <h3>Deploy a Three-Tier Web Architecture on AWS</h3>
+        <ul>
+            <li>Built a scalable and reliable three-tier web application architecture on AWS.</li>
+            <li>Configured 4 private subnets, 2 public subnets, and 2 NAT gateways for high availability.</li>
+            <li>Automated deployment with EC2, Auto Scaling Groups, and Application Load Balancers.</li>
+            <li>Secured SSH access using a bastion host for safe server and database connectivity.</li>
+        </ul>
+
         <h2>Education</h2>
-        <p><strong>Bachelor of Engineering (Civil):</strong> 2020 – 2023</p>
+        <p>Bachelor of Engineering (Civil) - 2020–2023</p>
         <p>TSSM’s BSCOER Narhe, Pune | CGPA: 7.82</p>
-    </section>
 
-    <section>
         <h2>Languages</h2>
         <ul>
             <li>English</li>
@@ -124,7 +112,8 @@
             <li>Hindi</li>
         </ul>
     </section>
-</div>
-
+    <footer>
+        <p>&copy; 2024 Mahesh Bodkhe. All rights reserved.</p>
+    </footer>
 </body>
 </html>
